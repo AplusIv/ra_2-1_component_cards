@@ -5,7 +5,7 @@ import dmPic from './components/img/dm.webp';
 function App() {
   return (
     <>
-      <Cards src={dmPic}>
+      <Cards>
         <img src={dmPic} className="card-img-top" alt="some img"/>
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
